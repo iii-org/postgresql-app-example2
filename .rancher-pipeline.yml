@@ -5,7 +5,7 @@ stages:
     - applyAppConfig:
         catalogTemplate: cattle-global-data:iii-dev-charts3-db
         version: 0.1.1
-        name: ${CICD_GIT_REPO_NAME}-${CICD_GIT_BRANCH}-9.6
+        name: ${CICD_GIT_REPO_NAME}-${CICD_GIT_BRANCH}-9-6
         targetNamespace: ${CICD_GIT_REPO_NAME}
         answers:
           # 這裡是為了50與140環境測試
@@ -27,7 +27,7 @@ stages:
     - applyAppConfig:
         catalogTemplate: cattle-global-data:iii-dev-charts3-db
         version: 0.1.1
-        name: ${CICD_GIT_REPO_NAME}-${CICD_GIT_BRANCH}-9.6-debian-10
+        name: ${CICD_GIT_REPO_NAME}-${CICD_GIT_BRANCH}-9-6-debian-10
         targetNamespace: ${CICD_GIT_REPO_NAME}
         answers:
           # 這裡是為了50與140環境測試
@@ -49,7 +49,7 @@ stages:
     - applyAppConfig:
         catalogTemplate: cattle-global-data:iii-dev-charts3-db
         version: 0.1.1
-        name: ${CICD_GIT_REPO_NAME}-${CICD_GIT_BRANCH}-9.6.20
+        name: ${CICD_GIT_REPO_NAME}-${CICD_GIT_BRANCH}-9-6-20
         targetNamespace: ${CICD_GIT_REPO_NAME}
         answers:
           # 這裡是為了50與140環境測試
